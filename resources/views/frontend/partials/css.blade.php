@@ -23,7 +23,7 @@
 
 <!-- CSS Theme -->
 <link rel="stylesheet" href="{{asset('frontend/css/theme-colors/blue.css')}}" id="style_color">
-<link rel="stylesheet" href="{{asset('frontend/css/theme-skins/dark.css')}}">
+{{--<link rel="stylesheet" href="{{asset('frontend/css/theme-skins/dark.css')}}">--}}
 
 <!-- CSS Customization -->
-<link rel="stylesheet" href="{{asset('frontend/css/custom.css')}}">
+{{--<link rel="stylesheet" href="{{asset('frontend/css/custom.css')}}">--}}

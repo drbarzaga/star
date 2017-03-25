@@ -19,7 +19,6 @@
 <script type="text/javascript" src="{{asset('frontend/js/plugins/fancy-box.js')}}"></script>
 <script type="text/javascript" src="{{asset('frontend/js/plugins/owl-carousel.js')}}"></script>
 <script type="text/javascript" src="{{asset('frontend/js/plugins/master-slider-fw.js')}}"></script>
-<script type="text/javascript" src="{{asset('frontend/js/plugins/style-switcher.js')}}"></script>
 <script type="text/javascript">
     jQuery(document).ready(function() {
         App.init();
@@ -28,7 +27,6 @@
         FancyBox.initFancybox();
         MSfullWidth.initMSfullWidth();
         OwlCarousel.initOwlCarousel();
-        StyleSwitcher.initStyleSwitcher();
     });
 </script>
 <!--[if lt IE 9]>
