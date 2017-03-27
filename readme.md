@@ -10,3 +10,6 @@ PHP >= 5.6.4
 
 Clone repository
 $ git clone https://github.com/drbarzaga/star.git
+
+Install Dependencies via composer:
+$composer install
