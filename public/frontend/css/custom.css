@@ -1,1 +1,11 @@
 /* Add here all your css styles (customizations) */
+
+
+.container {
+    width: 1170px;
+}
+
+.content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

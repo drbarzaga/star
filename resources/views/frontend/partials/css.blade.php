@@ -1,5 +1,5 @@
 <!-- Web Fonts -->
-<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+{{--<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>--}}
 
 <!-- CSS Global Compulsory -->
 <link rel="stylesheet" href="{{asset('frontend/plugins/bootstrap/css/bootstrap.min.css')}}">
@@ -23,7 +23,9 @@
 
 <!-- CSS Theme -->
 <link rel="stylesheet" href="{{asset('frontend/css/theme-colors/blue.css')}}" id="style_color">
-{{--<link rel="stylesheet" href="{{asset('frontend/css/theme-skins/dark.css')}}">--}}
+<link rel="stylesheet" href="{{asset('frontend/css/theme-skins/dark.css')}}">
 
 <!-- CSS Customization -->
-{{--<link rel="stylesheet" href="{{asset('frontend/css/custom.css')}}">--}}
+<link rel="stylesheet" href="{{asset('frontend/css/custom.css')}}">
+
+@stack('styles')

@@ -9,131 +9,131 @@
         <!-- masterslider -->
         <div class="master-slider ms-skin-black-2 round-skin" id="masterslider">
             <div class="ms-slide" style="z-index: 10">
-                <img src="frontend/plugins/master-slider/masterslider/style/blank.gif" data-src="frontend/img/bg/img2.jpg" alt="">
-                <div class="ms-layer ms-promo-info color-light" style="left:15px; top:160px"
-                     data-effect="bottom(40)"
-                     data-duration="2000"
-                     data-delay="700"
-                     data-ease="easeOutExpo"
-                >Introducing</div>
+                <img src="frontend/img/sliders/Avion.png" data-src="frontend/img/sliders/Avion.png" alt="">
+                {{--<div class="ms-layer ms-promo-info color-light" style="left:15px; top:160px"--}}
+                     {{--data-effect="bottom(40)"--}}
+                     {{--data-duration="2000"--}}
+                     {{--data-delay="700"--}}
+                     {{--data-ease="easeOutExpo"--}}
+                {{-->Introducing</div>--}}
 
-                <div class="ms-layer ms-promo-info ms-promo-info-in color-light" style="left:15px; top:210px"
-                     data-effect="bottom(40)"
-                     data-duration="2000"
-                     data-delay="1000"
-                     data-ease="easeOutExpo"
-                ><span class="color-green">Unify</span> Template</div>
+                {{--<div class="ms-layer ms-promo-info ms-promo-info-in color-light" style="left:15px; top:210px"--}}
+                     {{--data-effect="bottom(40)"--}}
+                     {{--data-duration="2000"--}}
+                     {{--data-delay="1000"--}}
+                     {{--data-ease="easeOutExpo"--}}
+                {{--><span class="color-green">Unify</span> Template</div>--}}
 
-                <div class="ms-layer ms-promo-sub color-light" style="left:15px; top:310px"
-                     data-effect="bottom(40)"
-                     data-duration="2000"
-                     data-delay="1300"
-                     data-ease="easeOutExpo"
-                >We are creative technology company providing <br> key digital services on web and mobile.</div>
+                {{--<div class="ms-layer ms-promo-sub color-light" style="left:15px; top:310px"--}}
+                     {{--data-effect="bottom(40)"--}}
+                     {{--data-duration="2000"--}}
+                     {{--data-delay="1300"--}}
+                     {{--data-ease="easeOutExpo"--}}
+                {{-->We are creative technology company providing <br> key digital services on web and mobile.</div>--}}
 
 
-                <a class="ms-layer btn-u" style="left:15px; top:390px" href="#"
-                   data-effect="bottom(40)"
-                   data-duration="2000"
-                   data-delay="1300"
-                   data-ease="easeOutExpo"
-                >LEARN MORE</a>
+                {{--<a class="ms-layer btn-u" style="left:15px; top:390px" href="#"--}}
+                   {{--data-effect="bottom(40)"--}}
+                   {{--data-duration="2000"--}}
+                   {{--data-delay="1300"--}}
+                   {{--data-ease="easeOutExpo"--}}
+                {{-->LEARN MORE</a>--}}
 
-                <a class="ms-layer btn-u btn-u-dark" style="left:150px; top:390px" href="#"
-                   data-effect="bottom(40)"
-                   data-duration="2000"
-                   data-delay="1300"
-                   data-ease="easeOutExpo"
-                >ABOUT US</a>
+                {{--<a class="ms-layer btn-u btn-u-dark" style="left:150px; top:390px" href="#"--}}
+                   {{--data-effect="bottom(40)"--}}
+                   {{--data-duration="2000"--}}
+                   {{--data-delay="1300"--}}
+                   {{--data-ease="easeOutExpo"--}}
+                {{-->ABOUT US</a>--}}
             </div>
 
             <div class="ms-slide" style="z-index: 13">
-                <img src="frontned/plugins/master-slider/masterslider/style/blank.gif" data-src="frontend/img/bg/img4.jpg" alt="">
+                <img src="frontend/img/sliders/Avion2.png" data-src="frontend/img/sliders/Avion2.png" alt="">
 
-                <img class="ms-layer" src="frontend/plugins/master-slider/masterslider/style/blank.gif" data-src="frontend/img/mockup/hand-black-iphone-l.png" alt=""
-                     style="bottom:-10px; left:15px; width:400px; height: auto;"
-                     data-effect="bottom(100)"
-                     data-duration="2000"
-                     data-ease="easeOutExpo"
-                     data-type="image"
-                />
+                {{--<img class="ms-layer" src="frontend/img/mockup/hand-black-iphone-l.png" data-src="frontend/img/mockup/hand-black-iphone-l.png" alt=""--}}
+                     {{--style="bottom:-10px; left:15px; width:400px; height: auto;"--}}
+                     {{--data-effect="bottom(100)"--}}
+                     {{--data-duration="2000"--}}
+                     {{--data-ease="easeOutExpo"--}}
+                     {{--data-type="image"--}}
+                {{--/>--}}
 
-                <h3 class="ms-layer ms-promo-info-in color-light"  style="left:450px; top:170px;"
-                    data-effect="right(40)"
-                    data-duration="2300"
-                    data-delay="1300"
-                    data-ease="easeOutExpo"
-                >MOST</h3>
+                {{--<h3 class="ms-layer ms-promo-info-in color-light"  style="left:450px; top:170px;"--}}
+                    {{--data-effect="right(40)"--}}
+                    {{--data-duration="2300"--}}
+                    {{--data-delay="1300"--}}
+                    {{--data-ease="easeOutExpo"--}}
+                {{-->MOST</h3>--}}
 
-                <h3 class="ms-layer ms-promo-info-in color-darker"  style="left:450px; top:230px"
-                    data-effect="left(40)"
-                    data-duration="2300"
-                    data-delay="1400"
-                    data-ease="easeOutBack"
-                >INCREDIBLE</h3>
+                {{--<h3 class="ms-layer ms-promo-info-in color-darker"  style="left:450px; top:230px"--}}
+                    {{--data-effect="left(40)"--}}
+                    {{--data-duration="2300"--}}
+                    {{--data-delay="1400"--}}
+                    {{--data-ease="easeOutBack"--}}
+                {{-->INCREDIBLE</h3>--}}
 
-                <h3 class="ms-layer ms-promo-info-in color-darker"  style="left:450px; top:290px"
-                    data-effect="left(40)"
-                    data-duration="2300"
-                    data-delay="1400"
-                    data-ease="easeOutBack"
-                >NEW <span class="color-light">FEATURES</span></h3>
+                {{--<h3 class="ms-layer ms-promo-info-in color-darker"  style="left:450px; top:290px"--}}
+                    {{--data-effect="left(40)"--}}
+                    {{--data-duration="2300"--}}
+                    {{--data-delay="1400"--}}
+                    {{--data-ease="easeOutBack"--}}
+                {{-->NEW <span class="color-light">FEATURES</span></h3>--}}
 
-                <a class="ms-layer btn-u" style="left:450px; top:370px" href="#"
-                   data-effect="bottom(40)"
-                   data-duration="2000"
-                   data-delay="1300"
-                   data-ease="easeOutExpo"
-                >LEARN MORE</a>
+                {{--<a class="ms-layer btn-u" style="left:450px; top:370px" href="#"--}}
+                   {{--data-effect="bottom(40)"--}}
+                   {{--data-duration="2000"--}}
+                   {{--data-delay="1300"--}}
+                   {{--data-ease="easeOutExpo"--}}
+                {{-->LEARN MORE</a>--}}
 
-                <a class="ms-layer btn-u btn-u-dark" style="left:580px; top:370px" href="#"
-                   data-effect="bottom(40)"
-                   data-duration="2000"
-                   data-delay="1300"
-                   data-ease="easeOutExpo"
-                >DOWNLOAD NOW</a>
+                {{--<a class="ms-layer btn-u btn-u-dark" style="left:580px; top:370px" href="#"--}}
+                   {{--data-effect="bottom(40)"--}}
+                   {{--data-duration="2000"--}}
+                   {{--data-delay="1300"--}}
+                   {{--data-ease="easeOutExpo"--}}
+                {{-->DOWNLOAD NOW</a>--}}
             </div>
 
             <div class="ms-slide" style="z-index: 12">
-                <img src="frontend/plugins/master-slider/masterslider/style/blank.gif" data-src="frontend/img/bg/img3.jpg" alt="">
+                <img src="frontend/img/sliders/Avion3.png" data-src="frontend/img/sliders/Avion3.png" alt="">
 
-                <div class="ms-layer video-box" style="bottom:125px; right:15px; width:650px; height:370px;"
-                     data-type="video"
-                     data-effect="rotate3dright(0,30,0,100,r)"
-                     data-duration="1500"
-                     data-ease="easeOutQuad"
-                >
-                    <img class="ms-img-bordered" src="frontend/plugins/master-slider/masterslider/style/blank.gif" data-src="frontend/img/main/img20.jpg" alt="">
-                    <iframe src="http://player.vimeo.com/video/70528799" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
-                </div>
+                {{--<div class="ms-layer video-box" style="bottom:125px; right:15px; width:650px; height:370px;"--}}
+                     {{--data-type="video"--}}
+                     {{--data-effect="rotate3dright(0,30,0,100,r)"--}}
+                     {{--data-duration="1500"--}}
+                     {{--data-ease="easeOutQuad"--}}
+                {{-->--}}
+                    {{--<img class="ms-img-bordered" src="frontend/img/main/img20.jpg" data-src="frontend/img/main/img20.jpg" alt="">--}}
+                    {{--<iframe src="http://player.vimeo.com/video/70528799" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>--}}
+                {{--</div>--}}
 
-                <h3 class="ms-layer ms-promo-info color-light"  style="left:10px; top:170px"
-                    data-effect="bottom(20)"
-                    data-duration="2300"
-                    data-delay="2300"
-                    data-ease="easeOutExpo"
-                >AMAZING</h3>
+                {{--<h3 class="ms-layer ms-promo-info color-light"  style="left:10px; top:170px"--}}
+                    {{--data-effect="bottom(20)"--}}
+                    {{--data-duration="2300"--}}
+                    {{--data-delay="2300"--}}
+                    {{--data-ease="easeOutExpo"--}}
+                {{-->AMAZING</h3>--}}
 
-                <h3 class="ms-layer ms-promo-info-in color-light"  style="left:10px; top:245px"
-                    data-effect="left(100)"
-                    data-duration="3300"
-                    data-delay="1900"
-                    data-ease="easeOutExpo"
-                ><span class="color-green">FEATURES</span></h3>
+                {{--<h3 class="ms-layer ms-promo-info-in color-light"  style="left:10px; top:245px"--}}
+                    {{--data-effect="left(100)"--}}
+                    {{--data-duration="3300"--}}
+                    {{--data-delay="1900"--}}
+                    {{--data-ease="easeOutExpo"--}}
+                {{--><span class="color-green">FEATURES</span></h3>--}}
 
-                <h3 class="ms-layer normal-title color-light"  style="left:10px; top:312px"
-                    data-effect="bottom(20)"
-                    data-duration="2300"
-                    data-delay="2000"
-                    data-ease="easeOutExpo"
-                >UNIFY BOOTSTRAP TEMPLATE</h3>
+                {{--<h3 class="ms-layer normal-title color-light"  style="left:10px; top:312px"--}}
+                    {{--data-effect="bottom(20)"--}}
+                    {{--data-duration="2300"--}}
+                    {{--data-delay="2000"--}}
+                    {{--data-ease="easeOutExpo"--}}
+                {{-->UNIFY BOOTSTRAP TEMPLATE</h3>--}}
 
-                <p class="ms-layer ms-promo-sub ms-promo-sub-in color-light"  style="left:10px; top:360px"
-                   data-effect="right(40)"
-                   data-duration="2300"
-                   data-delay="2300"
-                   data-ease="easeOutExpo"
-                >YOUTUBE, VIMEO AND CUSTOM <br> IFRAME SUPPORTED</p>
+                {{--<p class="ms-layer ms-promo-sub ms-promo-sub-in color-light"  style="left:10px; top:360px"--}}
+                   {{--data-effect="right(40)"--}}
+                   {{--data-duration="2300"--}}
+                   {{--data-delay="2300"--}}
+                   {{--data-ease="easeOutExpo"--}}
+                {{-->YOUTUBE, VIMEO AND CUSTOM <br> IFRAME SUPPORTED</p>--}}
             </div>
         </div>
         <!-- end of masterslider -->
@@ -145,8 +145,8 @@
         <div class="row">
             <div class="col-md-6">
                 <h2 class="title-v2">WE ARE STAR</h2>
-                <p>We put pride in everything we do here at STAR. When we put our name on your aircraft parts, we are not just trying to do a job, its our duty to make sure it is done with high quality.We are a new company but with many years of expertise and experience. We meet compliance and high standards and provide professional work from technicians that have been in the field for many years (15 +).</p>
-                <p>That is why we guarantee the best service around.Our company holds itself to excellence and knows the importance of getting your aircraft up in the air.</p><br>
+                <p style="font-size: 16px;" class="text-justify">We put pride in everything we do here at STAR. When we put our name on your aircraft parts, we are not just trying to do a job, its our duty to make sure it is done with high quality.We are a new company but with many years of expertise and experience. We meet compliance and high standards and provide professional work from technicians that have been in the field for many years (15 +).</p>
+                <p style="font-size: 16px;" class="text-justify">That is why we guarantee the best service around.Our company holds itself to excellence and knows the importance of getting your aircraft up in the air.</p><br>
                 <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
                 <a href="#" class="btn-u">View Our Work</a>
             </div>
@@ -161,8 +161,7 @@
     <div class="parallax-quote parallaxBg">
         <div class="container">
             <div class="parallax-quote-in">
-                <p style="font-size: 20px;">Sky Technics Aviation Repairs (STAR)<span class="color-green"> PROFESSIONAL, EFFICIENT, FIRST CLASS SERVICE</span></p>
-                <p style="font-size: 20px;">Those are our main qualities and principles of what we stand for.</p>
+                <p style="font-size: 20px;">Sky Technics Aviation Repairs synonym of<span class="color-green"> PROFESSIONAL, EFFICIENT, FIRST CLASS SERVICE.</span> Those are our main qualities and principles of what we stand for.</p>
             </div>
         </div>
     </div>
@@ -172,7 +171,6 @@
     <div class="container content-md">
         <div class="text-center margin-bottom-50">
             <h2 class="title-v2 title-center">OUR SERVICES</h2>
-            <p class="space-lg-hor">If you are going to use a <span class="color-green">passage of Lorem Ipsum</span>, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making <span class="color-green">this the first</span> true generator on the Internet.</p>
         </div>
 
         <!-- Service Blcoks -->
@@ -180,7 +178,7 @@
             <div class="col-md-4 col-sm-6 md-margin-bottom-40">
                 <div class="service-block service-block-default no-margin-bottom">
                     <i class="icon-lg rounded-x icon icon-badge"></i>
-                    <h2 class="heading-sm">Web Design &amp; Development</h2>
+                    <h2 class="heading-sm">MRO Solutions</h2>
                     <p>Donec id elit non mi porta gravida at eget metus id elit mi egetine. Fusce dapibus</p>
                     <ul class="list-unstyled">
                         <li>Responsive Web Desgin</li>
@@ -195,7 +193,7 @@
             <div class="col-md-4 col-sm-6 md-margin-bottom-40">
                 <div class="service-block service-block-default no-margin-bottom">
                     <i class="icon-lg rounded-x icon-line icon-trophy"></i>
-                    <h2 class="heading-sm">Marketing &amp; Cunsulting</h2>
+                    <h2 class="heading-sm">Trading</h2>
                     <p>Donec id elit non mi porta gravida at eget metus id elit mi egetine usce dapibus elit nondapibus</p>
                     <ul class="list-unstyled">
                         <li>Analysis &amp; Consulting</li>
@@ -210,7 +208,7 @@
             <div class="col-md-4 col-sm-12">
                 <div class="service-block service-block-default no-margin-bottom">
                     <i class="icon-lg rounded-x icon-line icon-layers"></i>
-                    <h2 class="heading-sm">SEO &amp; Advertising</h2>
+                    <h2 class="heading-sm">Military Solutions</h2>
                     <p>Donec id elit non mi porta gravida at eget metus id elit mi egetine. Fusce dapibus</p>
                     <ul class="list-unstyled">
                         <li>Display Advertising</li>
@@ -276,8 +274,8 @@
         <div class="row team-v4">
             <div class="col-md-3 col-sm-6 md-margin-bottom-50">
                 <img class="img-responsive" src="frontend/img/team/img15-md.jpg" alt="">
-                <span>Daniel Wearne</span>
-                <small>- Technica Director -</small>
+                <span>Milton Aguilera</span>
+                <small>- President -</small>
                 <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed a nulla non</p>
                 <ul class="list-inline team-social-v4">
                     <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
@@ -287,8 +285,8 @@
             </div>
             <div class="col-md-3 col-sm-6 md-margin-bottom-50">
                 <img class="img-responsive" src="frontend/img/team/img31-md.jpg" alt="">
-                <span>Sara Lisbon</span>
-                <small>- UI Designer -</small>
+                <span>Manuel Castañeda</span>
+                <small>- Accountable Manager -</small>
                 <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed a nulla non</p>
                 <ul class="list-inline team-social-v4">
                     <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
@@ -298,8 +296,8 @@
             </div>
             <div class="col-md-3 col-sm-6 sm-margin-bottom-50">
                 <img class="img-responsive" src="frontend/img/team/img18-md.jpg" alt="">
-                <span>John Doe</span>
-                <small>- Backend Developer -</small>
+                <span>Samuel Aburto</span>
+                <small></small>
                 <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed a nulla non</p>
                 <ul class="list-inline team-social-v4">
                     <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
@@ -309,8 +307,8 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <img class="img-responsive" src="frontend/img/team/img37-md.jpg" alt="">
-                <span>Alice Williams</span>
-                <small>- Customer Support -</small>
+                <span>Jose Aburto</span>
+                <small>- Purchasing Manager -</small>
                 <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed a nulla non</p>
                 <ul class="list-inline team-social-v4">
                     <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
@@ -326,7 +324,7 @@
     <div class="bg-color-light">
         <div class="container content-sm">
             <div class="headline-center margin-bottom-60">
-                <h2>WHAT PEOPLE SAY</h2>
+                <h2>WHAT CUSTOMERS SAY</h2>
                 <p>Phasellus vitae ipsum ex. Etiam eu vestibulum ante. <br>
                     Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Morbi libero libero, imperdiet fringilla </p>
             </div>
@@ -418,3 +416,16 @@
     </div>
     <!--=== End Owl Clients v1 ===-->
 @stop
+
+@push('scripts')
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            App.init();
+            App.initCounter();
+            App.initParallaxBg();
+            FancyBox.initFancybox();
+            MSfullWidth.initMSfullWidth();
+            OwlCarousel.initOwlCarousel();
+        });
+    </script>
+@endpush
