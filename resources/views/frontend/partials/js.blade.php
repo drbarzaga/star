@@ -22,5 +22,7 @@
 <script src="{{asset('frontend/plugins/html5shiv.js')}}"></script>
 <script src="{{asset('frontend/plugins/placeholder-IE-fixes.js')}}"></script>
 <![endif]-->
-
-@stack('scripts')
+<script src={{asset('frontend/plugins/wow-animations/js/wow.min.js')}}></script>
+<script>
+    new WOW().init();
+</script>

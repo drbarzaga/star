@@ -8,43 +8,28 @@
     <div class="ms-layers-template">
         <!-- masterslider -->
         <div class="master-slider ms-skin-black-2 round-skin" id="masterslider">
-            <div class="ms-slide" style="z-index: 10">
+            <div class="ms-slide" style="z-index: 10;">
                 <img src="frontend/img/sliders/Avion.png" data-src="frontend/img/sliders/Avion.png" alt="">
-                {{--<div class="ms-layer ms-promo-info color-light" style="left:15px; top:160px"--}}
-                     {{--data-effect="bottom(40)"--}}
-                     {{--data-duration="2000"--}}
-                     {{--data-delay="700"--}}
-                     {{--data-ease="easeOutExpo"--}}
-                {{-->Introducing</div>--}}
+                <div class="ms-layer ms-promo-info color-light" style="top:130px"
+                     data-effect="bottom(40)"
+                     data-duration="2000"
+                     data-delay="700"
+                     data-ease="easeOutExpo"
+                >Welcome</div>
 
-                {{--<div class="ms-layer ms-promo-info ms-promo-info-in color-light" style="left:15px; top:210px"--}}
-                     {{--data-effect="bottom(40)"--}}
-                     {{--data-duration="2000"--}}
-                     {{--data-delay="1000"--}}
-                     {{--data-ease="easeOutExpo"--}}
-                {{--><span class="color-green">Unify</span> Template</div>--}}
+                <div class="ms-layer ms-promo-info color-light" style="top:180px"
+                     data-effect="bottom(40)"
+                     data-duration="2000"
+                     data-delay="1000"
+                     data-ease="easeOutExpo"
+                >SKY TECHNICS AVIATION REPAIRS</div>
 
-                {{--<div class="ms-layer ms-promo-sub color-light" style="left:15px; top:310px"--}}
-                     {{--data-effect="bottom(40)"--}}
-                     {{--data-duration="2000"--}}
-                     {{--data-delay="1300"--}}
-                     {{--data-ease="easeOutExpo"--}}
-                {{-->We are creative technology company providing <br> key digital services on web and mobile.</div>--}}
-
-
-                {{--<a class="ms-layer btn-u" style="left:15px; top:390px" href="#"--}}
-                   {{--data-effect="bottom(40)"--}}
-                   {{--data-duration="2000"--}}
-                   {{--data-delay="1300"--}}
-                   {{--data-ease="easeOutExpo"--}}
-                {{-->LEARN MORE</a>--}}
-
-                {{--<a class="ms-layer btn-u btn-u-dark" style="left:150px; top:390px" href="#"--}}
-                   {{--data-effect="bottom(40)"--}}
-                   {{--data-duration="2000"--}}
-                   {{--data-delay="1300"--}}
-                   {{--data-ease="easeOutExpo"--}}
-                {{-->ABOUT US</a>--}}
+                <div class="ms-layer ms-promo-sub color-light" style="top:280px"
+                     data-effect="bottom(40)"
+                     data-duration="2000"
+                     data-delay="1300"
+                     data-ease="easeOutExpo"
+                >SYNONYM OF PROFESSIONAL, EFFICIENT <br> AND FIRST CLASS SERVICE</div>
             </div>
 
             <div class="ms-slide" style="z-index: 13">
@@ -143,14 +128,14 @@
     <!-- About Info -->
     <div class="container content-md">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 wow slideInLeft">
                 <h2 class="title-v2">WE ARE STAR</h2>
                 <p style="font-size: 16px;" class="text-justify">We put pride in everything we do here at STAR. When we put our name on your aircraft parts, we are not just trying to do a job, its our duty to make sure it is done with high quality.We are a new company but with many years of expertise and experience. We meet compliance and high standards and provide professional work from technicians that have been in the field for many years (15 +).</p>
                 <p style="font-size: 16px;" class="text-justify">That is why we guarantee the best service around.Our company holds itself to excellence and knows the importance of getting your aircraft up in the air.</p><br>
                 <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
                 <a href="#" class="btn-u">View Our Work</a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 wow slideInRight">
                 <img class="img-responsive" src="frontend/img/mockup/mockup1.png" alt="">
             </div>
         </div>
@@ -158,7 +143,7 @@
     <!-- End About Info -->
 
     <!--=== Parallax Quote ===-->
-    <div class="parallax-quote parallaxBg">
+    <div class="parallax-quote parallaxBg wow slideInUp">
         <div class="container">
             <div class="parallax-quote-in">
                 <p style="font-size: 20px;">Sky Technics Aviation Repairs synonym of<span class="color-green"> PROFESSIONAL, EFFICIENT, FIRST CLASS SERVICE.</span> Those are our main qualities and principles of what we stand for.</p>
@@ -174,54 +159,32 @@
         </div>
 
         <!-- Service Blcoks -->
-        <div class="row service-box-v1">
-            <div class="col-md-4 col-sm-6 md-margin-bottom-40">
-                <div class="service-block service-block-default no-margin-bottom">
-                    <i class="icon-lg rounded-x icon icon-badge"></i>
-                    <h2 class="heading-sm">MRO Solutions</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus id elit mi egetine. Fusce dapibus</p>
-                    <ul class="list-unstyled">
-                        <li>Responsive Web Desgin</li>
-                        <li>E-commerce</li>
-                        <li>App &amp; Icon Design</li>
-                        <li>Logo &amp; Brand Design</li>
-                        <li>Mobile Development</li>
-                        <li>UI/UX Design</li>
-                    </ul>
+        <div class="row">
+            <div class="col-md-4 md-margin-bottom-50">
+                <div class="service-block-v7 wow bounceInLeft">
+                    <i class="icon-settings"></i>
+                    <h3 class="title-v3-bg text-uppercase">MRO Solution</h3>
+                    <p class="text-justify">STAR state-of-the-art facilities and highly trained professionals allow us to provide quality in-house maintenance and repair services. We can test, repair, and overhaul a range of Avionic instruments, Electro Mechanical Components, Pneumatic components, Hydraulic Components and Fuel Components.</p>
+                    <a class="text-uppercase" href="#">Read More</a>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 md-margin-bottom-40">
-                <div class="service-block service-block-default no-margin-bottom">
-                    <i class="icon-lg rounded-x icon-line icon-trophy"></i>
-                    <h2 class="heading-sm">Trading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus id elit mi egetine usce dapibus elit nondapibus</p>
-                    <ul class="list-unstyled">
-                        <li>Analysis &amp; Consulting</li>
-                        <li>Email Marketing</li>
-                        <li>App &amp; Icon Design</li>
-                        <li>Responsive Web Desgin</li>
-                        <li>Social Networking</li>
-                        <li>Documentation</li>
-                    </ul>
+            <div class="col-md-4 md-margin-bottom-50">
+                <div class="service-block-v7 wow bounceInUp">
+                    <i class="icon-layers"></i>
+                    <h3 class="title-v3-bg text-uppercase">Trading</h3>
+                    <p class="text-justify">We maintain and operate a large rotable spare parts pool in order to better serve our customers. With a range of aircraft components on-hand, we can accelerate our repair services through sales and exchanges as per the needs of each repair situation. By keeping an eye on our clients' present and feature fleet requirements.</p>
+                    <a class="text-uppercase" href="#">Read More</a>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="service-block service-block-default no-margin-bottom">
-                    <i class="icon-lg rounded-x icon-line icon-layers"></i>
-                    <h2 class="heading-sm">Military Solutions</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus id elit mi egetine. Fusce dapibus</p>
-                    <ul class="list-unstyled">
-                        <li>Display Advertising</li>
-                        <li>App &amp; Icon Design</li>
-                        <li>Analysis &amp; Consulting</li>
-                        <li>Google AdSense</li>
-                        <li>Social Media</li>
-                        <li>Google/Bing Analysis</li>
-                    </ul>
+            <div class="col-md-4">
+                <div class="service-block-v7 wow bounceInRight">
+                    <i class="icon-plane"></i>
+                    <h3 class="title-v3-bg text-uppercase">Military Solutions</h3>
+                    <p class="text-justify">STAR is proud to assist military aircraft fleets with repairs, maintenance, logistic support, and component supply solutions. Our professionals have the experience and knowledge of Air Force Technical Orders and manuals to effectively and quickly repair military avionics instruments and components and provide other.</p>
+                    <a class="text-uppercase" href="#">Read More</a>
                 </div>
             </div>
         </div>
-        <!-- End Service Blcoks -->
     </div>
     <!--=== End Service Blcoks ===-->
 
@@ -229,33 +192,26 @@
     <div class="parallax-counter-v1 parallaxBg">
         <div class="container">
             <h2 class="title-v2 title-light title-center">SOME FACTS AND SERVICES</h2>
-            <p class="space-xlg-hor text-center color-light">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
 
             <div class="margin-bottom-40"></div>
 
             <div class="row margin-bottom-10">
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-4 col-xs-6">
                     <div class="counters">
                         <span class="counter">10629</span>
-                        <h4>Users</h4>
+                        <h4>Sales Parts</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6">
+                    <div class="counters">
+                        <span class="counter">20367</span>
+                        <h4>Inventory Parts</h4>
                     </div>
                 </div>
                 <div class="col-sm-3 col-xs-6">
                     <div class="counters">
-                        <span class="counter">277</span>
-                        <h4>Projects</h4>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="counters">
-                        <span class="counter">78</span>
-                        <h4>Team Members</h4>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="counters">
-                        <span class="counter">2008</span>
-                        <h4>Awards</h4>
+                        <span class="counter">26798</span>
+                        <h4>Capabilities Parts</h4>
                     </div>
                 </div>
             </div>
@@ -267,49 +223,43 @@
     <div class="container content-sm">
         <div class="headline-center margin-bottom-60">
             <h2>MEET OUR TEAM</h2>
-            <p>Phasellus vitae ipsum ex. Etiam eu vestibulum ante. <br>
-                Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Morbi libero libero, imperdiet fringilla </p>
         </div>
 
         <div class="row team-v4">
-            <div class="col-md-3 col-sm-6 md-margin-bottom-50">
-                <img class="img-responsive" src="frontend/img/team/img15-md.jpg" alt="">
+            <div class="col-md-3 col-sm-6 md-margin-bottom-50 wow slideInLeft">
+                <img class="img-responsive" src="frontend/img/people/img15-md.jpg" alt="">
                 <span>Milton Aguilera</span>
                 <small>- President -</small>
-                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed a nulla non</p>
                 <ul class="list-inline team-social-v4">
                     <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="rounded-x fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-6 md-margin-bottom-50">
-                <img class="img-responsive" src="frontend/img/team/img31-md.jpg" alt="">
+            <div class="col-md-3 col-sm-6 md-margin-bottom-50 wow slideInDown">
+                <img class="img-responsive" src="frontend/img/people/img31-md.jpg" alt="">
                 <span>Manuel Castañeda</span>
                 <small>- Accountable Manager -</small>
-                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed a nulla non</p>
                 <ul class="list-inline team-social-v4">
                     <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="rounded-x fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-6 sm-margin-bottom-50">
-                <img class="img-responsive" src="frontend/img/team/img18-md.jpg" alt="">
+            <div class="col-md-3 col-sm-6 sm-margin-bottom-50 wow slideInUp">
+                <img class="img-responsive" src="frontend/img/people/img18-md.jpg" alt="">
                 <span>Samuel Aburto</span>
                 <small></small>
-                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed a nulla non</p>
                 <ul class="list-inline team-social-v4">
                     <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="rounded-x fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <img class="img-responsive" src="frontend/img/team/img37-md.jpg" alt="">
+            <div class="col-md-3 col-sm-6 wow slideInRight">
+                <img class="img-responsive" src="frontend/img/people/img37-md.jpg" alt="">
                 <span>Jose Aburto</span>
                 <small>- Purchasing Manager -</small>
-                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed a nulla non</p>
                 <ul class="list-inline team-social-v4">
                     <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
@@ -319,68 +269,6 @@
         </div><!--/end row-->
     </div>
     <!--=== End Team v4 ===-->
-
-    <!--=== Testimonials v6 ===-->
-    <div class="bg-color-light">
-        <div class="container content-sm">
-            <div class="headline-center margin-bottom-60">
-                <h2>WHAT CUSTOMERS SAY</h2>
-                <p>Phasellus vitae ipsum ex. Etiam eu vestibulum ante. <br>
-                    Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Morbi libero libero, imperdiet fringilla </p>
-            </div>
-
-            <!-- Testimonials Wrap -->
-            <div class="testimonials-v6 testimonials-wrap">
-                <div class="row margin-bottom-50">
-                    <div class="col-md-6 md-margin-bottom-50">
-                        <div class="testimonials-info rounded-bottom">
-                            <img class="rounded-x" src="frontend/img/testimonials/img5.jpg" alt="">
-                            <div class="testimonials-desc">
-                                <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
-                                <strong>Evan Bohringer</strong>
-                                <span>Web Developer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="testimonials-info rounded-bottom">
-                            <img class="rounded-x" src="frontend/img/testimonials/img6.jpg" alt="">
-                            <div class="testimonials-desc">
-                                <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
-                                <strong>Sara Lisbon</strong>
-                                <span>Designer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/end row-->
-
-                <div class="row margin-bottom-20">
-                    <div class="col-md-6 md-margin-bottom-50">
-                        <div class="testimonials-info rounded-bottom">
-                            <img class="rounded-x" src="frontend/img/testimonials/img3.jpg" alt="">
-                            <div class="testimonials-desc">
-                                <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
-                                <strong>Alice Williams</strong>
-                                <span>Web Developer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="testimonials-info rounded-bottom">
-                            <img class="rounded-x" src="frontend/img/testimonials/img2.jpg" alt="">
-                            <div class="testimonials-desc">
-                                <p>Donec quis lorem sit amet nibh tempor porttitor non eu justo. Fusce iaculis scelerisque nibh at rhoncus. Aliquam blandit.</p>
-                                <strong>Jane Wearne</strong>
-                                <span>Technical Direector</span>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/end row-->
-            </div>
-            <!-- End Testimonials Wrap -->
-        </div><!--/end container-->
-    </div>
-    <!--=== End Testimonials v6 ===-->
 
     <!--=== Owl Clients v1 ===-->
     <div class="container content-sm">

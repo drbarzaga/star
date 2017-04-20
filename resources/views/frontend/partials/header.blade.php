@@ -30,20 +30,32 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="{{ route('frontend.services') }}">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                                 Services
                             </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="{{ route('frontend.services.mro-solutions') }}">MRO Solutions</a>
+                                    <a href="{{ route('frontend.services.trading') }}">Trading</a>
+                                    <a href="{{ route('frontend.services.military-solutions') }}">Military Solutions</a>
+                                </li>
+                            </ul>
                         </li>
 
                         <li class="dropdown">
-                            <a href="{{ route('frontend.mro') }}">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                                 MRO Capabilities
                             </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="{{route('frontend.accessories')}}">Accessories</a>
+                                </li>
+                            </ul>
                         </li>
 
                         <li class="dropdown">
-                            <a href="{{ route('frontend.news') }}">
-                                News
+                            <a href="{{ route('frontend.rfq') }}">
+                               RFQ
                             </a>
                         </li>
 

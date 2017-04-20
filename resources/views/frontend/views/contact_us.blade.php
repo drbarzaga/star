@@ -8,34 +8,31 @@
     <!-- Web Fonts -->
     <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
 
-    <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="frontend/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="frontend/css/style.css">
-
-    <!-- CSS Header and Footer -->
-    <link rel="stylesheet" href="frontend/css/headers/header-default.css">
-    <link rel="stylesheet" href="frontend/css/footers/footer-v1.css">
-
-    <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="frontend/plugins/animate.css">
-    <link rel="stylesheet" href="frontend/plugins/line-icons/line-icons.css">
-    <link rel="stylesheet" href="frontend/plugins/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="frontend/plugins/sky-forms-pro/skyforms/css/sky-forms.css">
-    <link rel="stylesheet" href="frontend/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css">
-    <!--[if lt IE 9]><link rel="stylesheet" href="frontend/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8.css"><![endif]-->
+    <link rel="stylesheet" href="{{asset('frontend/plugins/sky-forms-pro/skyforms/css/sky-forms.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css')}}">
+    <!--[if lt IE 9]><link rel="stylesheet" href="{{asset('frontend/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8.css')}}"><![endif]-->
 
     <!-- CSS Page Style -->
-    <link rel="stylesheet" href="frontend/css/pages/page_contact.css">
+    <link rel="stylesheet" href="{{asset('frontend/css/pages/page_contact.css')}}">
 
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="frontend/css/theme-colors/blue.css" id="style_color">
+    <link rel="stylesheet" href="{{asset('frontend/css/theme-colors/blue.css')}}" id="style_color">
 @endpush
 
 @section('content')
+    <!--=== Interactive Slider ===-->
+    <div class="breadcrumbs-v3 img-v1 text-center wow slideInDown">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Unify is a clean and fully responsive</p>
+        </div>
+    </div>
+    <!--=== End Interactive Slider ===-->
+
     <!--=== Content Part ===-->
     <div class="container content">
         <div class="row margin-bottom-30">
-            <div class="col-md-9 mb-margin-bottom-30">
+            <div class="col-md-9 mb-margin-bottom-30 wow slideInLeft">
                 <div class="headline"><h2>Contact Form</h2></div>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit landitiis.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat.</p><br>
@@ -88,7 +85,7 @@
                 </form>
             </div><!--/col-md-9-->
 
-            <div class="col-md-3">
+            <div class="col-md-3 wow slideInRight">
                 <!-- Contacts -->
                 <div class="headline"><h2>Contacts</h2></div>
                 <ul class="list-unstyled who margin-bottom-30">

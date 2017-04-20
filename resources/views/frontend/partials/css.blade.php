@@ -27,5 +27,3 @@
 
 <!-- CSS Customization -->
 <link rel="stylesheet" href="{{asset('frontend/css/custom.css')}}">
-
-@stack('styles')

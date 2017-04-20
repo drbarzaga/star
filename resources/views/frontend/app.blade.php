@@ -12,6 +12,8 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     @include('frontend.partials.css')
+
+    @stack('styles')
 </head>
 
 <body class="header-fixed header-fixed-space">
@@ -24,5 +26,7 @@
 </div>
 
 @include('frontend.partials.js')
+
+@stack('scripts')
 </body>
 </html>

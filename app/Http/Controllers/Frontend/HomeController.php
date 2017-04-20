@@ -27,14 +27,33 @@ class HomeController extends Controller
         return view('frontend.views.services');
     }
 
+    public function mro_solutions()
+    {
+        return view('frontend.views.services.mro_solutions');
+    }
+
+    public function trading()
+    {
+        return view('frontend.views.services.trading');
+    }
+
+    public function military_solutions()
+    {
+        return view('frontend.views.services.military_solutions');
+    }
     public function mro()
     {
         return view('frontend.views.mro');
     }
 
-    public function news()
+    public function accessories()
     {
-        return view('frontend.views.news');
+        return view('frontend.views.accessories');
+    }
+
+    public function rfq()
+    {
+        return view('frontend.views.rfq');
     }
 
     public function contactus()

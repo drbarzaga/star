@@ -11,19 +11,23 @@
 |
 */
 
-
-Route::group(['namespace' => 'Frontend'], function(){
+Route::group(['namespace' => 'Frontend'], function () {
 
     Route::get('/', 'HomeController@index')->name('frontend.home');
 
     Route::get('about-us', 'HomeController@aboutus')->name('frontend.about_us');
 
-    Route::get('services', 'HomeController@services')->name('frontend.services');
+    Route::get('mro-solutions', 'HomeController@mro_solutions')->name('frontend.services.mro-solutions');
+
+    Route::get('trading', 'HomeController@trading')->name('frontend.services.trading');
+
+    Route::get('military-solutions', 'HomeController@military_solutions')->name('frontend.services.military-solutions');
 
     Route::get('mro-capabilities', 'HomeController@mro')->name('frontend.mro');
 
-    Route::get('news', 'HomeController@news')->name('frontend.news');
+    Route::get('accessories','HomeController@accessories')->name('frontend.accessories');
+
+    Route::get('rfq', 'HomeController@rfq')->name('frontend.rfq');
 
     Route::get('contact-us', 'HomeController@contactus')->name('frontend.contact_us');
-
 });
