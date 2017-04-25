@@ -1,15 +1,27 @@
-## About STAR
-
+## STAR
 STAR is a Website for Sky Technics Aviation Repair Company
-
-## Requirements
-
-PHP >= 5.6.4
 
 ## Installation
 
-Clone repository
+Clone repository.
+```
 $ git clone https://github.com/drbarzaga/star.git
+```
+Install dependencies via composer.
+```
+$ composer install
+```
 
-Install Dependencies via composer:
-$composer install
+Copy example environment configuration file to .env.
+```
+$ cp .env.example .env
+```
+
+Edit the .env file with your environment, database and email credentials.
+```
+$ nano .env
+```
+Generate application key
+```
+$ php artisan key:generate
+```
