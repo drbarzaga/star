@@ -89,10 +89,9 @@
                 <!-- Contacts -->
                 <div class="headline"><h2>Contacts</h2></div>
                 <ul class="list-unstyled who margin-bottom-30">
-                    <li><a href="#"><i class="fa fa-home"></i>5B Streat, City 50987 New Town US</a></li>
-                    <li><a href="#"><i class="fa fa-envelope"></i>info@example.com</a></li>
-                    <li><a href="#"><i class="fa fa-phone"></i>1(222) 5x86 x97x</a></li>
-                    <li><a href="#"><i class="fa fa-globe"></i>http://www.example.com</a></li>
+                    <li><a href="#"><i class="fa fa-home"></i>6232 NW 72 Ave,Miami FL 33166</a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i>info@sta-repairs.com</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i>305 885 7499</a></li>
                 </ul>
 
                 <!-- Business Hours -->

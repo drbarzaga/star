@@ -1,220 +1,47 @@
 @extends('frontend.app')
 
 @section('title')
-    News
+    RFQ
 @stop
 
 @section('content')
     <!--=== Interactive Slider ===-->
     <div class="breadcrumbs-v3 img-v1 text-center wow slideInDown">
         <div class="container">
-            <h1>News</h1>
+            <h1>RFQ</h1>
             <p>Unify is a clean and fully responsive</p>
         </div>
     </div>
     <!--=== End Interactive Slider ===-->
 
     <div class="container content-md">
-        <div class="row">
-            <div class="col-md-4 news-v3 wow slideInUp">
-                <img class="img-responsive full-width" src="frontend/img/main/img10.jpg" alt="">
-                <div class="news-v3-in-sm bg-color-light">
-                    <ul class="list-inline posted-info-sm">
-                        <li>By: <a href="#">Alex</a></li>
-                        <li>In: <a href="#">Design</a></li>
-                        <li>Posted: Jan 24, 2015</li>
-                    </ul>
-                    <h2><a href="#">Incredible standard post</a></h2>
-                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin sed.</p>
-                    <ul class="post-shares">
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-speech"></i>
-                                <span>26</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-share"></i>
-                                <span>98</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-heart"></i>
-                                <span>30</span>
-                            </a>
-                        </li>
-                    </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center ">
+                    <p class="c-white text-left" style="padding-left: 25px;font-size: 15px;">
+                        NEED A QUOTE? Complete the following form and one of our sales representatives will get back to you shortlhy. Please make sure to add P/N, S/N, and QTY needed.
+                    </p>
                 </div>
-            </div>
+                <div class="col-sm-1">
 
-            <div class="col-md-4 news-v3 wow slideInUp">
-                <img class="img-responsive full-width" src="frontend/img/main/img12.jpg" alt="">
-                <div class="news-v3-in-sm bg-color-light">
-                    <ul class="list-inline posted-info-sm">
-                        <li>By: <a href="#">Susan</a></li>
-                        <li>In: <a href="#">Wordpress</a></li>
-                        <li>Posted: Jan 24, 2015</li>
-                    </ul>
-                    <h2><a href="#">Imperdiet molesti volutpa</a></h2>
-                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin sed.</p>
-                    <ul class="post-shares">
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-speech"></i>
-                                <span>26</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-share"></i>
-                                <span>98</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-heart"></i>
-                                <span>30</span>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
-            </div>
-
-            <div class="col-md-4 news-v3 wow slideInUp">
-                <img class="img-responsive full-width" src="frontend/img/main/img9.jpg" alt="">
-                <div class="news-v3-in-sm bg-color-light">
-                    <ul class="list-inline posted-info-sm">
-                        <li>By: <a href="#">Joe</a></li>
-                        <li>In: <a href="#">Unify</a></li>
-                        <li>Posted: Jan 24, 2015</li>
-                    </ul>
-                    <h2><a href="#">Nullam non metus inmi</a></h2>
-                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin sed.</p>
-                    <ul class="post-shares">
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-speech"></i>
-                                <span>26</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-share"></i>
-                                <span>98</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-heart"></i>
-                                <span>30</span>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="col-sm-7">
+                    <form role="form" id="form-contact" novalidate="novalidate" class="bv-form" style="border-left: 1px solid #bd2828;padding-left: 35px;"><button type="submit" class="bv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+                        <div class="form-group has-feedback">
+                            <input type="text" name="name" placeholder="Name" class="form-control" id="InputName" data-bv-field="name"><i class="form-control-feedback bv-no-label" data-bv-icon-for="name" style="display: none;"></i>
+                            <small class="help-block" data-bv-validator="notEmpty" data-bv-for="name" data-bv-result="NOT_VALIDATED" style="display: none;">The name is required</small></div>
+                        <div class="form-group has-feedback">
+                            <input type="email" name="email" placeholder="Email Address" class="form-control" id="InputEmail1" data-bv-field="email"><i class="form-control-feedback bv-no-label" data-bv-icon-for="email" style="display: none;"></i>
+                            <small class="help-block" data-bv-validator="notEmpty" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">The email is required</small><small class="help-block" data-bv-validator="emailAddress" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">Please enter a valid email address</small></div>
+                        <div class="form-group has-feedback">
+                            <textarea class="form-control" name="message" placeholder="Your Comment" id="InputMessage" rows="7" data-bv-field="message"></textarea><i class="form-control-feedback bv-no-label" data-bv-icon-for="message" style="display: none;"></i>
+                            <small class="help-block" data-bv-validator="notEmpty" data-bv-for="message" data-bv-result="NOT_VALIDATED" style="display: none;">The message is required</small></div>
+                        <button type="submit" class="btn btn-rw btn-primary">Send</button>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 news-v3 wow slideInUp">
-                <img class="img-responsive full-width" src="frontend/img/main/img10.jpg" alt="">
-                <div class="news-v3-in-sm bg-color-light">
-                    <ul class="list-inline posted-info-sm">
-                        <li>By: <a href="#">Alex</a></li>
-                        <li>In: <a href="#">Design</a></li>
-                        <li>Posted: Jan 24, 2015</li>
-                    </ul>
-                    <h2><a href="#">Incredible standard post</a></h2>
-                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin sed.</p>
-                    <ul class="post-shares">
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-speech"></i>
-                                <span>26</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-share"></i>
-                                <span>98</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-heart"></i>
-                                <span>30</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
 
-            <div class="col-md-4 news-v3 wow slideInUp">
-                <img class="img-responsive full-width" src="frontend/img/main/img12.jpg" alt="">
-                <div class="news-v3-in-sm bg-color-light">
-                    <ul class="list-inline posted-info-sm">
-                        <li>By: <a href="#">Susan</a></li>
-                        <li>In: <a href="#">Wordpress</a></li>
-                        <li>Posted: Jan 24, 2015</li>
-                    </ul>
-                    <h2><a href="#">Imperdiet molesti volutpa</a></h2>
-                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin sed.</p>
-                    <ul class="post-shares">
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-speech"></i>
-                                <span>26</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-share"></i>
-                                <span>98</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-heart"></i>
-                                <span>30</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-md-4 news-v3 wow slideInUp">
-                <img class="img-responsive full-width" src="frontend/img/main/img9.jpg" alt="">
-                <div class="news-v3-in-sm bg-color-light">
-                    <ul class="list-inline posted-info-sm">
-                        <li>By: <a href="#">Joe</a></li>
-                        <li>In: <a href="#">Unify</a></li>
-                        <li>Posted: Jan 24, 2015</li>
-                    </ul>
-                    <h2><a href="#">Nullam non metus inmi</a></h2>
-                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin sed.</p>
-                    <ul class="post-shares">
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-speech"></i>
-                                <span>26</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-share"></i>
-                                <span>98</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="rounded-x icon-heart"></i>
-                                <span>30</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </div>
 
 @stop
