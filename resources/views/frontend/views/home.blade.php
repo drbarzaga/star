@@ -29,7 +29,7 @@
                      data-duration="2000"
                      data-delay="1300"
                      data-ease="easeOutExpo"
-                >SYNONYM OF PROFESSIONAL, EFFICIENT <br> AND FIRST CLASS SERVICE</div>
+                >SYNONYM OF PROFESSIONALISM, EFFICIENCY <br> AND FIRST CLASS SERVICE</div>
             </div>
 
             <div class="ms-slide" style="z-index: 13">
@@ -146,7 +146,7 @@
     <div class="parallax-quote parallaxBg wow slideInUp">
         <div class="container">
             <div class="parallax-quote-in">
-                <p style="font-size: 20px;">Sky Technics Aviation Repairs synonym of<span class="color-green"> PROFESSIONAL, EFFICIENT, FIRST CLASS SERVICE.</span> Those are our main qualities and principles of what we stand for.</p>
+                <p style="font-size: 20px;">Sky Technics Aviation Repairs synonym of<span class="color-green"> PROFESSIONALISM, EFFICIENCY AND FIRST CLASS SERVICE.</span> Those are our main qualities and principles of what we stand for.</p>
             </div>
         </div>
     </div>
@@ -165,6 +165,7 @@
                     <i class="icon-settings"></i>
                     <h3 class="title-v3-bg text-uppercase">MRO Solution</h3>
                     <p class="text-justify">STAR state-of-the-art facilities and highly trained professionals allow us to provide quality in-house maintenance and repair services. We can test, repair, and overhaul a range of Avionic instruments, Electro Mechanical Components, Pneumatic components, Hydraulic Components and Fuel Components.</p>
+                    <br>
                     <a class="text-uppercase" href="#">Read More</a>
                 </div>
             </div>
