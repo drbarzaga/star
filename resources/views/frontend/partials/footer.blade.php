@@ -12,8 +12,12 @@
                     {{--</p>--}}
                 {{--</div>--}}
                 <div class="col-md-3 md-margin-bottom-40 wow slideInUp">
-                    <a href="index.html"><img id="logo-footer" class="footer-logo" src="frontend/img/logo3-light.png" alt=""></a>
-                    <p style="color: #fff;">Sky Technics Aviation Repairs.</p>
+                    <a href="index.html">
+                        <h1 class="footer-logo">STAR</h1>
+                    </a>
+                    <p style="color: #fff;">Sky </p>
+                    <p style="color: #fff;">Technics</p>
+                    <p style="color: #fff;">Aviation Repairs.</p>
                 </div>
                 <!-- End About Us -->
 
@@ -21,8 +25,8 @@
                 <div class="col-md-3 sm-margin-bottom-40 wow slideInLeft">
                     <div class="heading-footer"><h2>About Us</h2></div>
                     <ul class="list-unstyled footer-link-list" style="text-transform: uppercase;">
-                        <li style="color: #fff;"><i class="fa fa-arrow-circle-right"></i><a href="#" style="padding-left: 5px;color: #fff;"> Overview</a></li>
-                        <li style="color: #fff;"><i class="fa fa-arrow-circle-right"></i><a href="#" style="padding-left: 5px;color: #fff;"> Certification</a></li>
+                        <li style="color: #fff;"><i class="fa fa-arrow-circle-right" style="color: #0c74b1;"></i><a href="#" style="padding-left: 5px;color: #fff;"> Overview</a></li>
+                        <li style="color: #fff;"><i class="fa fa-arrow-circle-right" style="color: #0c74b1;"></i><a href="#" style="padding-left: 5px;color: #fff;"> Certifications</a></li>
                     </ul>
                 </div>
                 <!-- End Recent News -->
@@ -31,7 +35,10 @@
                 <div class="col-md-3 sm-margin-bottom-40 wow slideInDown">
                     <div class="heading-footer"><h2>MRO Solutions</h2></div>
                     <ul class="list-unstyled footer-link-list" style="text-transform: uppercase;">
-                        <li style="color: #fff;"><i class="fa fa-arrow-circle-right"></i><a href="#" style="padding-left: 5px;color: #fff;"> About Us</a></li>
+                        <li style="color: #fff;"><i class="fa fa-arrow-circle-right" style="color: #0c74b1;"></i><a href="#" style="padding-left: 5px;color: #fff;"> About Us</a></li>
+                        <li style="color: #fff;"><i class="fa fa-arrow-circle-right" style="color: #0c74b1;"></i><a href="#" style="padding-left: 5px;color: #fff;"> Trading</a></li>
+                        <li style="color: #fff;"><i class="fa fa-arrow-circle-right" style="color: #0c74b1;"></i><a href="#" style="padding-left: 5px;color: #fff;"> Military Solution</a></li>
+                        <li style="color: #fff;"><i class="fa fa-arrow-circle-right" style="color: #0c74b1;"></i><a href="#" style="padding-left: 5px;color: #fff;"> Accesories</a></li>
                     </ul>
                 </div>
                 <!-- End Useful Links -->
@@ -41,15 +48,15 @@
                     <div class="heading-footer"><h2>Contacts</h2></div>
                     <ul class="list-unstyled contacts">
                         <li style="color: #fff;">
-                            <i class="radius-3x fa fa-map-marker" style="margin: 0px 10px 0 0;"></i>
+                            <i class="fa fa-map-marker" style="margin: 0px 10px 0 0;color: #0c74b1;"></i>
                             6732 NW 72 Ave,<br> Miami FL 33166
                         </li>
                         <li style="color: #fff;">
-                            <i class="radius-3x fa fa-phone" style="margin: 0px 10px 0 0;"></i>
+                            <i class="fa fa-phone" style="margin: 0px 10px 0 0;color: #0c74b1;"></i>
                             305 885 7499
                         </li>
                         <li style="color: #fff;">
-                            <i class="radius-3x fa fa-envelope" style="margin: 0px 10px 0 0;"></i>
+                            <i class="fa fa-envelope" style="margin: 0px 10px 0 0;color: #0c74b1;"></i>
                             <a href="#" style="color: #fff;">info@sta-repairs.com</a><br>
                         </li>
                     </ul>
