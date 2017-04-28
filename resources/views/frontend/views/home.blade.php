@@ -304,6 +304,20 @@
         </div>
     </div>
     <!--=== End Owl Clients v1 ===-->
+
+    <!--=== Map ===-->
+    <div class="container-fluid">
+        <div class="headline-center margin-bottom-60">
+            <h2>LOCATION</h2>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 no-padding" style="margin-bottom: -50px;">
+                <iframe scrolling="no" style="border: 0px none; border-color:#fff; width:100%;" height="350" src = "https://maps.google.com/maps?q=25.834936,-80.314053&hl=es;z=8&amp;output=embed"></iframe>
+            </div>
+        </div>
+
+    </div>
+    <!--=== End Map ===-->
 @stop
 
 @push('scripts')
@@ -315,6 +329,12 @@
             FancyBox.initFancybox();
             MSfullWidth.initMSfullWidth();
             OwlCarousel.initOwlCarousel();
+        });
+
+        $('.map-container').click(function(){
+            $(this).find('iframe').addClass('clicked')
+        }).mouseleave(function(){
+            $(this).find('iframe').removeClass('clicked')
         });
     </script>
 @endpush
