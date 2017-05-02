@@ -34,10 +34,7 @@
         <div class="row margin-bottom-30">
             <div class="col-md-9 mb-margin-bottom-30 wow slideInLeft">
                 <div class="headline"><h2>Contact Form</h2></div>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit landitiis.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat.</p><br>
-
-                <form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form sky-changes-3">
+                <form action="" method="post" id="sky-form3" class="sky-form sky-changes-3">
                     <fieldset>
                         <div class="row">
                             <section class="col col-6">
@@ -93,25 +90,20 @@
                     <li><a href="#"><i class="fa fa-envelope"></i>info@sta-repairs.com</a></li>
                     <li><a href="#"><i class="fa fa-phone"></i>305 885 7499</a></li>
                 </ul>
-
-                <!-- Business Hours -->
-                <div class="headline"><h2>Business Hours</h2></div>
-                <ul class="list-unstyled margin-bottom-30">
-                    <li><strong>Monday-Friday:</strong> 10am to 8pm</li>
-                    <li><strong>Saturday:</strong> 11am to 3pm</li>
-                    <li><strong>Sunday:</strong> Closed</li>
-                </ul>
-
-                <!-- Why we are? -->
-                <div class="headline"><h2>Why we are?</h2></div>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
-                <ul class="list-unstyled">
-                    <li><i class="fa fa-check color-green"></i> Odio dignissimos ducimus</li>
-                    <li><i class="fa fa-check color-green"></i> Blanditiis praesentium volup</li>
-                    <li><i class="fa fa-check color-green"></i> Eos et accusamus</li>
-                </ul>
             </div><!--/col-md-3-->
         </div><!--/row-->
     </div><!--/container-->
     <!--=== End Content Part ===-->
+
+    <div class="container-fluid">
+        <div class="headline-center margin-bottom-60">
+            <h2>LOCATION</h2>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 no-padding" style="margin-bottom: -50px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1795.5234662284129!2d-80.31505614668801!3d25.834998763286904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDUwJzA1LjgiTiA4MMKwMTgnNTAuNiJX!5e0!3m2!1ses!2ses!4v1493399114818" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div>
 @stop
