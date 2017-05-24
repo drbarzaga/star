@@ -27,6 +27,12 @@
                             <a href="{{ route('frontend.about_us') }}">
                                 About Us
                             </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="{{ route('frontend.certifications') }}">Certifications</a>
+                                    <a href="{{ route('frontend.gallery') }}">Gallery</a>
+                                </li>
+                            </ul>
                         </li>
 
                         <li class="dropdown">

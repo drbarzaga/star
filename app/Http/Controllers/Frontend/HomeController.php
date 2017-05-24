@@ -41,6 +41,7 @@ class HomeController extends Controller
     {
         return view('frontend.views.services.military_solutions');
     }
+
     public function mro()
     {
         return view('frontend.views.mro');
@@ -61,4 +62,13 @@ class HomeController extends Controller
         return view('frontend.views.contact_us');
     }
 
+    public function certifications()
+    {
+        return view('frontend.views.certifications');
+    }
+
+    public function gallery()
+    {
+        return view('frontend.views.gallery');
+    }
 }

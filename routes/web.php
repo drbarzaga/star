@@ -25,9 +25,13 @@ Route::group(['namespace' => 'Frontend'], function () {
 
     Route::get('mro-capabilities', 'HomeController@mro')->name('frontend.mro');
 
-    Route::get('accessories','HomeController@accessories')->name('frontend.accessories');
+    Route::get('accessories', 'HomeController@accessories')->name('frontend.accessories');
 
     Route::get('rfq', 'HomeController@rfq')->name('frontend.rfq');
 
     Route::get('contact-us', 'HomeController@contactus')->name('frontend.contact_us');
+
+    Route::get('certifications', 'HomeController@certifications')->name('frontend.certifications');
+
+    Route::get('gallery', 'HomeController@gallery')->name('frontend.gallery');
 });
