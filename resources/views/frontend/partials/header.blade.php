@@ -30,7 +30,7 @@
                             <ul class="dropdown-menu">
                                 <li>
                                     <a href="{{ route('frontend.certifications') }}">Certifications</a>
-                                    <a href="{{ route('frontend.gallery') }}">Gallery</a>
+                                    <a href="{{ route('frontend.overview') }}">Overview</a>
                                 </li>
                             </ul>
                         </li>

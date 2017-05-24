@@ -67,8 +67,8 @@ class HomeController extends Controller
         return view('frontend.views.certifications');
     }
 
-    public function gallery()
+    public function overview()
     {
-        return view('frontend.views.gallery');
+        return view('frontend.views.overview');
     }
 }

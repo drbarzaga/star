@@ -163,11 +163,20 @@
     <!--=== End Parallax Quote ===-->
 
     <!--=== Service Blcoks ===-->
-    <div class="container content-md">
-        <div class="text-center margin-bottom-50">
-            <h2 class="title-v2 title-center">OUR SERVICES</h2>
+    <div class="cta2 arrow-down ">
+        <div class="container text-center wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
+            <div class="row">
+                <div class="col-xs-4">
+                </div>
+                <div class="col-xs-4">
+                    <h3 class="text-uppercase">Our Services</h3>
+                </div>
+                <div class="col-xs-4">
+                </div>
+            </div>
         </div>
-
+    </div>
+    <div class="container content-md">
         <!-- Service Blcoks -->
         <div class="row">
             <div class="col-md-4 md-margin-bottom-50">
@@ -240,11 +249,20 @@
     <!--=== End Carallax Counter v1 ===-->
 
     <!--=== Team v4 ===-->
-    <div class="container content-sm">
-        <div class="headline-center margin-bottom-60">
-            <h2>MEET OUR TEAM</h2>
+    <div class="cta2 arrow-down ">
+        <div class="container text-center wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
+            <div class="row">
+                <div class="col-xs-4">
+                </div>
+                <div class="col-xs-4">
+                    <h3 class="text-uppercase">MEET OUR TEAM</h3>
+                </div>
+                <div class="col-xs-4">
+                </div>
+            </div>
         </div>
-
+    </div>
+    <div class="container content-sm">
         <div class="row team-v4">
             <div class="col-md-3 col-sm-6 md-margin-bottom-50 wow slideInLeft">
                 <img class="img-responsive" src="frontend/img/people/img15-md.jpg" alt="">
@@ -290,25 +308,26 @@
     </div>
     <!--=== End Team v4 ===-->
     <!--=== Map ===-->
-    <div class="container-fluid">
-        <div class="headline-center margin-bottom-60">
-            <h2>LOCATION</h2>
-        </div>
-        <div class="row">
-            <div id="mapa" class="col-xs-12 no-padding" style="margin-bottom: -50px;">
-                <div class="capa-anti-eventos" onclick="style.display='none'"></div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1795.5234662284129!2d-80.31505614668801!3d25.834998763286904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDUwJzA1LjgiTiA4MMKwMTgnNTAuNiJX!5e0!3m2!1ses!2ses!4v1493399114818" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <style>
-                    #mapa .capa-anti-eventos {
-                        width: 600px;
-                        height: 450px;
-                        position: absolute;
-                        cursor: pointer;
-                    }
-                </style>
+    <div class="cta2 arrow-down ">
+        <div class="container text-center wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
+            <div class="row">
+                <div class="col-xs-4">
+                </div>
+                <div class="col-xs-4">
+                    <h3 class="text-uppercase">LOCATION</h3>
+                </div>
+                <div class="col-xs-4">
+                </div>
             </div>
         </div>
-
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 no-padding map-container" style="margin-bottom: -50px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1795.5234662284129!2d-80.31505614668801!3d25.834998763286904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDUwJzA1LjgiTiA4MMKwMTgnNTAuNiJX!5e0!3m2!1ses!2ses!4v1493399114818"
+                        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
     <!--=== End Map ===-->
 @stop
@@ -323,5 +342,13 @@
         MSfullWidth.initMSfullWidth();
         OwlCarousel.initOwlCarousel();
     });
+
+    $('.map-container')
+        .click(function () {
+            $(this).find('iframe').addClass('clicked')
+        })
+        .mouseleave(function () {
+            $(this).find('iframe').removeClass('clicked')
+        });
 </script>
 @endpush

@@ -33,5 +33,5 @@ Route::group(['namespace' => 'Frontend'], function () {
 
     Route::get('certifications', 'HomeController@certifications')->name('frontend.certifications');
 
-    Route::get('gallery', 'HomeController@gallery')->name('frontend.gallery');
+    Route::get('overview', 'HomeController@overview')->name('frontend.overview');
 });

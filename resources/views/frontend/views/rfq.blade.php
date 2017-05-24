@@ -5,15 +5,19 @@
 @stop
 
 @section('content')
-    <!--=== Interactive Slider ===-->
-    <div class="breadcrumbs-v3 img-v1 text-center wow slideInDown">
-        <div class="container">
-            <h1>RFQ</h1>
-            <p>Unify is a clean and fully responsive</p>
+    <div class="cta2 arrow-down ">
+        <div class="container text-center wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
+            <div class="row">
+                <div class="col-xs-4">
+                </div>
+                <div class="col-xs-4">
+                    <h3 class="text-uppercase">RFQ</h3>
+                </div>
+                <div class="col-xs-4">
+                </div>
+            </div>
         </div>
     </div>
-    <!--=== End Interactive Slider ===-->
-
     <div class="container content-md">
         <div class="container">
             <div class="row">

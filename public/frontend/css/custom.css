@@ -1,11 +1,100 @@
-/* Add here all your css styles (customizations) */
-
-
-.container {
-    width: 1170px;
+/* =Call to Action
+-------------------------------------------------------------- */
+.cta, .cta-dark, .cta-primary {
+    background-color:#fafafa;
+    padding:10px 10px;
+    border-left:0px solid #d3d3d3;
+}
+.cta-dark {
+    background-color:#272727;
+    border-left:6px solid #494949;
+}
+.cta-primary {
+    background-color:#00B7EB;
+    border-left:6px solid #EAEAEA;
+}
+.cta p, .cta-dark p, .cta-primary p{
+    margin:0;
+    padding:0;
+    font-size:16px;
+}
+.cta2 {
+    z-index:10;
+    background-color:#3498db;
+    padding:20px 0;
+}
+.cta2 h2,
+.cta2 h3,
+.cta2 h4 {
+    color:#fff;
+    font-weight:600;
+    margin-bottom:5px;
+}
+.cta2 h2 {
+    font-size:24px;
+}
+.cta2 p {
+    margin:0;
+    padding:0 15px 0 0px;
+    font-size:16px;
+    color:#fff;
+}
+.cta2.arrow-up,
+.cta2.arrow-down {
+    position:relative;
+    padding:20px 0;
+    z-index:5;
 }
 
-.content {
-    padding-top: 40px;
-    padding-bottom: 40px;
+.cta22.arrow-up,
+.cta22.arrow-down {
+    position:relative;
+    padding:30px 0;
+    z-index:5;
+}
+
+.cta2.arrow-down:after {
+    content:' ';
+    position:absolute;
+    width:0;
+    height:0;
+    border-left:15px solid transparent;
+    border-right:15px solid transparent;
+    border-top:15px solid #3498db;
+    left:50%;
+    margin-left:-15px;
+    bottom:-15px;
+}
+.cta2.arrow-up:after {
+    content:' ';
+    position:absolute;
+    width:0; height:0;
+    border-left:15px solid transparent;
+    border-right:15px solid transparent;
+    border-bottom:15px solid #00B7EB;
+    left:50%;
+    margin-left:-15px;
+    top:-15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto",sans-serif;
+    text-transform: capitalize;
+}
+
+h2, .h2, h2 a {
+    font-size: 1.5em;
+}
+
+.map-container {
+    width: 100%;
+}
+.map-container iframe{
+    display: block;
+    width: 100%;
+    position: relative; /* IE needs a position other than static */
+    pointer-events: none;
+}
+.map-container iframe.clicked{
+    pointer-events: auto;
 }
