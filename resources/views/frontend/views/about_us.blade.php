@@ -47,13 +47,13 @@
                         <div class="row">
                             <!-- Smallest Progress Bar -->
                             <div class="col-md-6 md-margin-bottom-40">
-                                <h3 class="heading-xs">International Sales - 88%</h3>
+                                <h3 class="heading-xs">International Sales - 95%</h3>
                                 <div class="progress progress-u progress-sm">
                                     <div class="progress-bar progress-bar-dark" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%">
                                     </div>
                                 </div>
 
-                                <h3 class="heading-xs">Customer Service - 93%</h3>
+                                <h3 class="heading-xs">Customer Service - 98%</h3>
                                 <div class="progress progress-u progress-sm">
                                     <div class="progress-bar progress-bar-dark" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
                                     </div>
@@ -63,7 +63,7 @@
 
                             <!-- Smallest Progress Bar -->
                             <div class="col-md-6 md-margin-bottom-40">
-                                <h3 class="heading-xs">Operations Manager - 76%</h3>
+                                <h3 class="heading-xs">Operations Manager - 96%</h3>
                                 <div class="progress progress-u progress-sm">
                                     <div class="progress-bar progress-bar-dark" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%">
                                     </div>
