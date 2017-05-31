@@ -72,7 +72,6 @@
                         <section>
                             <label class="label">Message</label>
                             <label class="textarea">
-                                <i class="icon-append fa fa-comment"></i>
                                 <textarea rows="4" name="message" id="message"></textarea>
                             </label>
                         </section>
