@@ -3,3 +3,45 @@
 @section('title')
     Military Solutions
 @stop
+
+@section('content')
+    <div class="cta2 arrow-down ">
+        <div class="container text-center wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
+            <div class="row">
+                <div class="col-xs-4">
+                </div>
+                <div class="col-xs-4">
+                    <h3 class="text-uppercase">Military Solutions</h3>
+                </div>
+                <div class="col-xs-4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section style="margin-top: 40px; margin-bottom: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <p class="mt5 mb5 text-justify wow bounce" style="visibility: visible; animation-name: bounce;font-size: 15px;">
+                        STAR is proud to assist military aircraft fleets with repairs, maintenance, logistic support, and component supply solutions. Our professionals have the experience and knowledge of Air Force Technical Orders and manuals to effectively and quickly repair military avionics instruments and components and provide other military aircraft support. We provide all military repairs and parts in strict accordance with Department of Defense maintenance standards. Our inventory and extensive trading network provides 24/7 access to military grade aircraft components and we understand that military fleet maintenance often does not fall within regular business hours. We are prepared to apply our swift and reliable repair and support services to military aircraft, whenever needed.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    {{--<div class="content-box content-box-bordered mt20-xs">--}}
+                    {{--<img src="images/backgrounds/mros.jpg" class="img-responsive" style="width: 400px; height: 200px;" alt="">--}}
+                    {{--</div>--}}
+                    <h4>
+                        <span class="fa fa-cogs mr15 fa-2x"></span> Services
+                    </h4>
+                    <hr class="hr-solid mt5">
+                    <ul class="nav nav-pills nav-stacked mb30 m5">
+                        <li><a href="{{ route('frontend.services.mro-solutions') }}" style="color:#000;">MRO solutions</a></li>
+                        <li><a href="{{ route('frontend.services.trading') }}" style="color:#000;">Trading</a></li>
+                        <li><a href="{{ route('frontend.services.military-solutions') }}" style="color:#000;">Military solutions</a></li>
+                    </ul>;
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection

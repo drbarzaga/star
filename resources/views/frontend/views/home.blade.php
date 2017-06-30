@@ -265,7 +265,7 @@
     <div class="container content-sm">
         <div class="row team-v4">
             <div class="col-md-3 col-sm-6 md-margin-bottom-50 wow slideInLeft">
-                <img class="img-responsive" src="frontend/img/people/img15-md.jpg" alt="">
+                <img class="img-responsive" src="frontend/img/people/Milton.png" alt="" style="height: 298px;">
                 <span>Milton Aguilera</span>
                 <small>- President -</small>
                 <ul class="list-inline team-social-v4">
@@ -275,7 +275,7 @@
                 </ul>
             </div>
             <div class="col-md-3 col-sm-6 md-margin-bottom-50 wow slideInDown">
-                <img class="img-responsive" src="frontend/img/people/img31-md.jpg" alt="">
+                <img class="img-responsive" src="frontend/img/people/Manuel.jpg" alt="" style="height: 298px;">
                 <span>Manuel Castañeda</span>
                 <small>- Accountable Manager -</small>
                 <ul class="list-inline team-social-v4">
@@ -285,7 +285,7 @@
                 </ul>
             </div>
             <div class="col-md-3 col-sm-6 sm-margin-bottom-50 wow slideInUp">
-                <img class="img-responsive" src="frontend/img/people/img18-md.jpg" alt="">
+                <img class="img-responsive" src="frontend/img/people/Samuel.jpg" alt="" style="height: 298px;">
                 <span>Samuel Aburto</span>
                 <small></small>
                 <ul class="list-inline team-social-v4">
@@ -295,7 +295,7 @@
                 </ul>
             </div>
             <div class="col-md-3 col-sm-6 wow slideInRight">
-                <img class="img-responsive" src="frontend/img/people/img37-md.jpg" alt="">
+                <img class="img-responsive" src="frontend/img/people/Jose.jpg" alt="" style="height: 298px;">
                 <span>Jose Aburto</span>
                 <small>- Purchasing Manager -</small>
                 <ul class="list-inline team-social-v4">

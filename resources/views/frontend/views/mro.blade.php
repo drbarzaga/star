@@ -1,8 +1,9 @@
 @extends('frontend.app')
 
 @section('title')
-    MRO Capabilities
+    MRO Solutions
 @stop
 
 @section('content')
+
 @stop
