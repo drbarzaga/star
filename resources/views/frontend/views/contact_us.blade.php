@@ -93,7 +93,7 @@
                 <!-- Contacts -->
                 <div class="headline"><h2>Contacts</h2></div>
                 <ul class="list-unstyled who margin-bottom-30">
-                    <li><a href="#"><i class="fa fa-home"></i>6232 NW 72 Ave,Miami FL 33166</a></li>
+                    <li><a href="#"><i class="fa fa-home"></i>6732 NW 72 Ave,Miami FL 33166</a></li>
                     <li><a href="#"><i class="fa fa-envelope"></i>info@sta-repairs.com</a></li>
                     <li><a href="#"><i class="fa fa-phone"></i>305 885 7499</a></li>
                 </ul>

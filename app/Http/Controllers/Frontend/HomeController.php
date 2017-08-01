@@ -71,4 +71,9 @@ class HomeController extends Controller
     {
         return view('frontend.views.overview');
     }
+
+    public function gallery()
+    {
+        return view('frontend.views.gallery');
+    }
 }

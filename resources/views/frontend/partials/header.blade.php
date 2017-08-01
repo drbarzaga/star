@@ -31,6 +31,7 @@
                                 <li>
                                     <a href="{{ route('frontend.certifications') }}">Certifications</a>
                                     <a href="{{ route('frontend.overview') }}">Overview</a>
+                                    <a href="{{ route('frontend.gallery') }}">Gallery</a>
                                 </li>
                             </ul>
                         </li>

@@ -141,11 +141,9 @@
                 <p style="font-size: 16px;" class="text-justify">That is why we guarantee the best service around.Our
                     company holds itself to excellence and knows the importance of getting your aircraft up in the
                     air.</p><br>
-                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
-                <a href="#" class="btn-u">View Our Work</a>
             </div>
             <div class="col-md-6 wow slideInRight">
-                <img class="img-responsive" src="frontend/img/mockup/mockup1.png" alt="">
+                <img class="img-responsive" src="frontend/img/mockup/star.png" alt="">
             </div>
         </div>
     </div>
@@ -228,7 +226,7 @@
                 <div class="col-sm-4 col-xs-6">
                     <div class="counters">
                         <span class="counter">10629</span>
-                        <h4>Sales Parts</h4>
+                        <h4>Repairs Parts</h4>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6">
@@ -267,42 +265,22 @@
             <div class="col-md-3 col-sm-6 md-margin-bottom-50 wow slideInLeft">
                 <img class="img-responsive" src="frontend/img/people/Milton.png" alt="" style="height: 298px;">
                 <span>Milton Aguilera</span>
-                <small>- President -</small>
-                <ul class="list-inline team-social-v4">
-                    <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="rounded-x fa fa-linkedin"></i></a></li>
-                </ul>
+                <small>- Sales Manager -</small>
             </div>
             <div class="col-md-3 col-sm-6 md-margin-bottom-50 wow slideInDown">
-                <img class="img-responsive" src="frontend/img/people/Manuel.jpg" alt="" style="height: 298px;">
+                <img class="img-responsive" src="frontend/img/people/Manuel.png" alt="" style="height: 298px;">
                 <span>Manuel Castañeda</span>
-                <small>- Accountable Manager -</small>
-                <ul class="list-inline team-social-v4">
-                    <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="rounded-x fa fa-linkedin"></i></a></li>
-                </ul>
+                <small>- Accounting Manager -</small>
             </div>
             <div class="col-md-3 col-sm-6 sm-margin-bottom-50 wow slideInUp">
-                <img class="img-responsive" src="frontend/img/people/Samuel.jpg" alt="" style="height: 298px;">
+                <img class="img-responsive" src="frontend/img/people/Samuel.png" alt="" style="height: 298px;">
                 <span>Samuel Aburto</span>
-                <small></small>
-                <ul class="list-inline team-social-v4">
-                    <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="rounded-x fa fa-linkedin"></i></a></li>
-                </ul>
+                <small>- Customer Service Manager -</small>
             </div>
             <div class="col-md-3 col-sm-6 wow slideInRight">
-                <img class="img-responsive" src="frontend/img/people/Jose.jpg" alt="" style="height: 298px;">
+                <img class="img-responsive" src="frontend/img/people/Jose.png" alt="" style="height: 298px;">
                 <span>Jose Aburto</span>
                 <small>- Purchasing Manager -</small>
-                <ul class="list-inline team-social-v4">
-                    <li><a href="#"><i class="rounded-x fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="rounded-x fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="rounded-x fa fa-linkedin"></i></a></li>
-                </ul>
             </div>
         </div><!--/end row-->
     </div>

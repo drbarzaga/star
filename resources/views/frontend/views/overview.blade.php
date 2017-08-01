@@ -1,7 +1,7 @@
 @extends('frontend.app')
 
 @section('title')
-    Gallery
+    Overview
 @stop
 
 @section('content')
