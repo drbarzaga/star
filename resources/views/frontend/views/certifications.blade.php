@@ -25,32 +25,40 @@
 
     <div class="container">
         <div class="tz-gallery">
-            <div class="row col-md-offset-2">
+            <div class="row">
                 <div class="col-sm-8 col-md-3">
-                    <a class="lightbox" href="frontend/docs/Drug.pdf">
+                    <a class="lightbox" href="frontend/docs/AIR.pdf" target="_blank">
                         <img src="frontend/img/docs/drug_and_alcohol.png" alt="Bridge" style="border-radius: 190px;">
                     </a>
                 </div>
                 <div class="col-sm-8 col-md-3">
-                    <a class="lightbox" href="frontend/docs/EASA.pdf">
+                    <a class="lightbox" href="frontend/docs/EASA.pdf" target="_blank">
                         <img src="frontend/img/docs/EASA.png" alt="Bridge" style="border-radius: 190px;">
                     </a>
                 </div>
                 <div class="col-sm-8 col-md-3">
-                    <a class="lightbox" href="frontend/docs/FAA.pdf">
+                    <a class="lightbox" href="frontend/docs/FAA.pdf" target="_blank">
+                        <img src="frontend/img/docs/FAA.png" alt="Bridge" style="border-radius: 190px;">
+                    </a>
+                </div>
+                <div class="col-sm-8 col-md-3">
+                    <a class="lightbox" href="frontend/docs/FAA_DRUG.pdf" target="_blank">
                         <img src="frontend/img/docs/FAA.png" alt="Bridge" style="border-radius: 190px;">
                     </a>
                 </div>
             </div>
-            <div class="row col-md-offset-2">
+            <div class="row">
                 <div class="col-md-3 text-center">
-                    <a href="frontend/docs/Drug.pdf"><i class="fa fa-download"></i> Drug and Alcohol</a>
+                    <a href="frontend/docs/AIR.pdf" target="_blank"><i class="fa fa-download"></i> AIR</a>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="frontend/docs/EASA.pdf"><i class="fa fa-download"></i> EASA</a>
+                    <a href="frontend/docs/EASA.pdf" target="_blank"><i class="fa fa-download"></i> EASA</a>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="frontend/docs/FAA.pdf"><i class="fa fa-download"></i> FAA</a>
+                    <a href="frontend/docs/FAA.pdf" target="_blank"><i class="fa fa-download"></i> FAA</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="frontend/docs/FAA_DRUG.pdf" target="_blank"><i class="fa fa-download"></i> FAA DRUG</a>
                 </div>
             </div>
         </div>
