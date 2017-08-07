@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-sm-8 col-md-3">
                     <a class="lightbox" href="frontend/docs/AIR.pdf" target="_blank">
-                        <img src="frontend/img/docs/drug_and_alcohol.png" alt="Bridge" style="border-radius: 190px;">
+                        <img src="frontend/img/docs/air3.png" alt="Bridge" style="border-radius: 190px;">
                     </a>
                 </div>
                 <div class="col-sm-8 col-md-3">
@@ -49,13 +49,13 @@
             </div>
             <div class="row">
                 <div class="col-md-3 text-center">
-                    <a href="frontend/docs/AIR.pdf" target="_blank"><i class="fa fa-download"></i> AIR</a>
+                    <a href="frontend/docs/AIR.pdf" target="_blank"><i class="fa fa-download"></i> FAA</a>
                 </div>
                 <div class="col-md-3 text-center">
                     <a href="frontend/docs/EASA.pdf" target="_blank"><i class="fa fa-download"></i> EASA</a>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="frontend/docs/FAA.pdf" target="_blank"><i class="fa fa-download"></i> FAA</a>
+                    <a href="frontend/docs/FAA.pdf" target="_blank"><i class="fa fa-download"></i> OSPCE</a>
                 </div>
                 <div class="col-md-3 text-center">
                     <a href="frontend/docs/FAA_DRUG.pdf" target="_blank"><i class="fa fa-download"></i> FAA DRUG</a>
