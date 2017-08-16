@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-sm-8 col-md-3">
                     <a class="lightbox" href="frontend/docs/AIR.pdf" target="_blank">
-                        <img src="frontend/img/docs/air3.png" alt="Bridge" style="border-radius: 190px;">
+                        <img src="frontend/img/docs/air.png" alt="Bridge" style="border-radius: 190px;">
                     </a>
                 </div>
                 <div class="col-sm-8 col-md-3">

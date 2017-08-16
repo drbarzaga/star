@@ -21,8 +21,7 @@
 
    <div class="container content margin-top-40">
       <div class="text-center margin-bottom-50">
-         <h2 class="title-v2 title-center">THREE COLUMNS</h2>
-         <p class="space-lg-hor">If you are going to use a <span class="color-green">passage of Lorem Ipsum</span>, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making <span class="color-green">this the first</span> true generator on the Internet.</p>
+         <p class="space-lg-hor">Our Accesory shop specializes in the repair, overhaul, modification and functional testing of Pneumatic Valves & Pneumatic Drive Units, Starters & Generators, Temperature Transducers, Electrical Actuated Valves, Flow Control Downstream Pressure Regulating Valves, Check Valves, in addition to many other components for the Commercial and Military sections of the industry. Our test equipment incorporates the latest hardware and software to deliver high accuracy and fast turnaround times.</p>
       </div>
 
       <div class="row  margin-bottom-30">
