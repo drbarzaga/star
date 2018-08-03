@@ -263,14 +263,14 @@
     <div class="container content-sm">
         <div class="row team-v4">
             <div class="col-md-3 col-sm-6 md-margin-bottom-50 wow slideInLeft">
-                <img class="img-responsive" src="frontend/img/people/Milton.png" alt="" style="height: 298px;">
+                <img class="img-responsive" src="frontend/img/people/Milton.JPG" alt="" style="height: 298px;">
                 <span>Milton Aguilera</span>
-                <small>- Sales Manager -</small>
+                <small>- President - Business Development / Partner -</small>
             </div>
             <div class="col-md-3 col-sm-6 md-margin-bottom-50 wow slideInDown">
-                <img class="img-responsive" src="frontend/img/people/Manuel.png" alt="" style="height: 298px;">
+                <img class="img-responsive" src="frontend/img/people/Manuel.JPG" alt="" style="height: 298px;">
                 <span>Manuel Castañeda</span>
-                <small>- Accounting Manager -</small>
+                <small>- Accountable Manager / Partner -</small>
             </div>
             <div class="col-md-3 col-sm-6 sm-margin-bottom-50 wow slideInUp">
                 <img class="img-responsive" src="frontend/img/people/Samuel.png" alt="" style="height: 298px;">

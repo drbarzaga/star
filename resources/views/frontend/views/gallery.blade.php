@@ -4,6 +4,16 @@
     Gallery
 @stop
 
+@push('styles')
+    <style type="text/css">
+        span img{
+            min-height: 230px;
+            max-height: 230px;
+            width: 100%;
+        }
+    </style>
+@endpush
+
 @section('content')
     <div class="cta2 arrow-down ">
         <div class="container text-center wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
@@ -56,7 +66,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row margin-bottom-30">
             <div class="col-sm-4 sm-margin-bottom-30">
                 <a href="frontend/img/gallery/img7.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 7">
                     <span><img class="img-responsive" src="frontend/img/gallery/img7.jpg" alt=""></span>
@@ -70,6 +80,109 @@
             <div class="col-sm-4">
                 <a href="frontend/img/gallery/img9.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 9">
                     <span><img class="img-responsive" src="frontend/img/gallery/img9.jpg" alt=""></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row margin-bottom-30">
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img10.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 7">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img10.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img11.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 8">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img11.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="frontend/img/gallery/img12.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 9">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img12.jpg" alt=""></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row margin-bottom-30">
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img13.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 7">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img13.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img14.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 8">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img14.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="frontend/img/gallery/img15.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 9">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img15.jpg" alt=""></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row margin-bottom-30">
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img16.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 7">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img16.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img17.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 8">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img17.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="frontend/img/gallery/img18.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 9">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img18.jpg" alt=""></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row margin-bottom-30">
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img19.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 7">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img19.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img20.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 8">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img20.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="frontend/img/gallery/img21.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 9">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img21.jpg" alt=""></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row margin-bottom-30">
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img22.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 7">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img22.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img23.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 8">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img23.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="frontend/img/gallery/img24.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 9">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img24.jpg" alt=""></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row margin-bottom-30">
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img25.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 7">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img25.jpg" alt=""></span>
+                </a>
+            </div>
+            <div class="col-sm-4 sm-margin-bottom-30">
+                <a href="frontend/img/gallery/img26.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 8">
+                    <span><img class="img-responsive" src="frontend/img/gallery/img26.jpg" alt=""></span>
                 </a>
             </div>
         </div>

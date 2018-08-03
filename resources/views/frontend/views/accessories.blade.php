@@ -20,11 +20,7 @@
    </div>
 
    <div class="container content margin-top-40">
-      <div class="text-center margin-bottom-50">
-         <p class="space-lg-hor">Our Accesory shop specializes in the repair, overhaul, modification and functional testing of Pneumatic Valves & Pneumatic Drive Units, Starters & Generators, Temperature Transducers, Electrical Actuated Valves, Flow Control Downstream Pressure Regulating Valves, Check Valves, in addition to many other components for the Commercial and Military sections of the industry. Our test equipment incorporates the latest hardware and software to deliver high accuracy and fast turnaround times.</p>
-      </div>
-
-      <div class="row  margin-bottom-30">
+     <div class="row  margin-bottom-30">
          <div class="col-sm-4 sm-margin-bottom-30">
             <a href="frontend/img/accesories/1.jpg" rel="gallery1" class="fancybox img-hover-v1" title="Image 1">
                <span><img class="img-responsive" src="frontend/img/accesories/1.jpg" alt=""></span>
